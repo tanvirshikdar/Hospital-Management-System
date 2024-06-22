@@ -1,0 +1,98 @@
+/* Common styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #0072ce;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+form {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type="submit"],
+button[type="submit"] {
+  background-color: #0072ce;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover,
+button[type="submit"]:hover {
+  background-color: #0056a3;
+}
+
+p {
+  margin-top: 20px;
+}
+
+a {
+  color: #0072ce;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Specific styles for login and registration forms */
+#login-form,
+#registration-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  font-size: 2rem;
+  color: #0072ce;
+  text-align: center;
+}
+
+.list-group-item a {
+  color: #0072ce;
+  text-decoration: none;
+}
+
+.list-group-item a:hover {
+  text-decoration: underline;
+}
